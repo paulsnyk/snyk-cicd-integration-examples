@@ -23,8 +23,8 @@ phases:
     commands:
       - npm install
       - npm test  # Run your unit tests, etc
-      - ./snyk test
-      - ./snyk monitor --org=<your-snyk-org-id>
+      - ./snyk iac test 
+      - ./snyk iac test --report --org=<your-snyk-org-id>
 
 #artifacts:
 #files:
